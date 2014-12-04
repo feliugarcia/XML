@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="xslejemplo.xsl"?>
+<!-- Este es nuestro primer archivo XML --> 
+<Pag>
+	<Titulo>Resultado: página XML transformada</Titulo>
+	<PagDesc>Esta es la pgina HTML que resulta de la transformacin del XML:</PagDesc>
+	<PersonaLista>
+		<Persona>
+			<Nombre>Ana</Nombre>
+			<Apellido>Lopez</Apellido>
+			<Edad>27</Edad>
+			<Articulos>5</Articulos>
+		</Persona>
+		<Persona>
+			<Nombre>Teresa</Nombre>
+			<Apellido>Trujillo</Apellido>
+			<Edad>55</Edad>
+			<Articulos>7</Articulos>
+		</Persona>
+		<Persona>
+			<Nombre>Ana</Nombre>
+			<Apellido>Maria Braga</Apellido>
+			<Edad>77</Edad>
+			<Articulos>0</Articulos>
+		</Persona>
+		<Persona>
+			<Nombre>Maria</Nombre>
+			<Apellido>Plata</Apellido>
+			<Edad>22</Edad>
+			<Articulos>12</Articulos>
+		</Persona>
+		<Persona>
+			<Nombre>Isabel</Nombre>
+			<Apellido>Martn</Apellido>
+			<Edad>25</Edad>
+			<Articulos>1</Articulos>
+		</Persona>
+		<Persona>
+			<Nombre>Maria Lopes</Nombre>
+			<Apellido>Jesus</Apellido>
+			<Edad>33</Edad>
+			<Articulos>9</Articulos>
+		</Persona>
+	</PersonaLista>
+</Pag>
