@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE note SYSTEM "cdata.dtd"> -->
+
+<!DOCTYPE t [
+<!ENTITY ab "&lt;">
+<!ENTITY ac "Frutas">
+<!ENTITY bc "&gt;">
+<!ENTITY cd "&#174;">
+<!ENTITY banana "BANANA &#169;">
+<!ENTITY co "Frutas tropicais &#37;.">
+<!ENTITY ftp "File transfer protocol">
+<!ENTITY www "Wide world Web">
+<!ENTITY wap "wireless aplication protocol"> ]>
+
+
+<table border="1">
+  <title> Questao 3.i - Simbolos especiais e CDATA </title>
+  <caption> Tabela de Servicos </caption>
+  <thead>
+    <tr>
+      <th> &ftp;</th>
+      <th> &www;</th>
+      <th> &wap;</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3"> Ultima atualizacao 11/2014 </td>
+    </tr>
+  </tfoot>
+  
+</table>
+
+    
+    
+    

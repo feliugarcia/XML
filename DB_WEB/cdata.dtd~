@@ -1,0 +1,11 @@
+<!DOCTYPE cdata [
+<!ENTITY ab "&lt;">
+<!ENTITY ac "Frutas">
+<!ENTITY bc "&gt;">
+<!ENTITY cd "&#174;">
+<!ENTITY banana "BANANA &#169;">
+<!ENTITY co "Frutas tropicais &#37;.">
+<!ENTITY ftp "File transfer protocol">
+<!ENTITY www "Wide world Web">
+<!ENTITY wap "wireless aplication protocol"> ]>
+

@@ -1,0 +1,27 @@
+LINGUAGENS
+{
+background-color: #ffffff;
+width: 100%;
+}
+XML,JAVA,HTML
+{
+display: block;
+margin-bottom: 30pt;
+margin-left: 0;
+}
+SIGLA
+{
+color: #FF0000;
+font-size: 20pt;
+}
+USO
+{
+color: #0000FF;
+font-size: 20pt;
+}
+COMENTARIO
+{
+display: block;
+color: #000000;
+margin-left: 20pt;
+}

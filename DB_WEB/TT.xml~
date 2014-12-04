@@ -1,0 +1,23 @@
+
+<LINGUAGENS>
+<HTML>
+<SIGLA>Linguagem de marcação hipertexto</SIGLA>
+<USO>Internet</USO>
+<COMENTARIO>A linguagem mais usada da Internet</COMENTARIO>
+</HTML>
+<XML>
+<SIGLA>Linguagem de marcação extendida</SIGLA>
+<USO>Internet</USO>
+<COMENTARIO>A nova linguagem da Internet</COMENTARIO>
+</XML>
+<JAVA>
+<SIGLA>Simplesmente JAVA</SIGLA>
+<USO>Internet</USO>
+<COMENTARIO>Independente de plataforma</COMENTARIO>
+</JAVA>
+</LINGUAGENS>
+
+
+</body>
+
+</html> 

@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+  <title>Exercicio 1</title>
+</head>
+
+<body>
+  
+  <table>
+    
+    <title>Tabela HTML para XML</title>
+    
+    <tr>Questao 1.</tr>
+    
+    <caption> Tabela de carros </caption>
+    <thead>
+      <tr>
+        <th> Marca</th>
+        <th> Modelo</th>
+        <th> Ano</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="3">Ford</th>
+        <th> Fiesta</th>
+        <th> 2009</th>
+      </tr>
+      <tr>
+        <th> Focus</th>
+        <th> 2009</th>
+      </tr>
+      <tr>
+        <th> F250</th>
+        <th> 2009</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Toyota</th>
+        <th> Hilux</th>
+        <th> 2009</th>
+      </tr>
+      <tr>
+        <th> Yaris</th>
+        <th> 2009</th>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3"> Ultima atualizacao 11/2014 </td>
+      </tr>
+    </tfoot>
+    
+  </table>
+
+</body>
+</html>

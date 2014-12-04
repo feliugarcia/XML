@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<xsl:stylesheet version="1.0" 
+   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+
+   <html>
+   <head><title>Informe detallado</title></head>
+
+   <body bgcolor="#cdd9da">
+
+   <h2>Informe detallado</h2>
+
+   <hr />
+
+   <xsl:for-each select="/library/book">
+
+      <b>Título: </b> 
+         <i><xsl:value-of select="title" /></i><br />
+      <b>Autor : </b>
+         <i><xsl:value-of select="author" /></i><br/>
+      <b>Editorial: </b> 
+         <i><xsl:value-of select="edition/publisher" /></i><br/>
+      <b>Año: </b> 
+         <i><xsl:value-of select="edition/year" /></i><br/>
+      <b>ISBN: </b> 
+         <i><xsl:value-of select="edition/isbn" /></i><br/>
+      <b>Número de páginas: </b> 
+         <i><xsl:value-of select="edition/pages" /></i><br/>
+
+      <hr />
+
+   </xsl:for-each>
+
+   </body>
+   </html>
+
+</xsl:template>
+
+</xsl:stylesheet>
