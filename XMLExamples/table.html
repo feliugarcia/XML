@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cd_catalog.css"?>
+
+<head>
+<title>Tabela HTML para XML</title>
+</head>
+<body>
+
+<d1>Questao 1.</d1>
+
+<table border="1">
+<caption> Tabela de carros </caption>
+	<thead>
+		<tr>
+			<th> Marca</th>
+			<th> Modelo</th>
+			<th> Ano</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="3">Ford</th>
+			<th> Fiesta</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> Focus</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> F250</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Toyota</th>
+			<th> Hilux</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> Yaris</th>
+			<th> 2009</th>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3"> Ultima atualizacao 11/2014 </td>
+		</tr>
+	</tfoot>
+
+</table>
+
+<d1>Questao 2.</d1>
+
+<table>
+  <tr>
+    <td> &lt; Frutas &gt; </td>
+    <td>Bananas &lt; &#8471; &#174; &#169; &#37;  </td>
+  </tr>
+</table>
+
+
+<d1>Questao 3.</d1>
+
+<!DOCTYPE note [
+<!ENTITY ab "&lt;">
+<!ENTITY ac "Frutas">
+<!ENTITY bc "&gt;">
+<!ENTITY cd "&#174;">
+<!ENTITY banana "BANANA &#169;">
+<!ENTITY co "Frutas tropicais &#37;.">
+<!ENTITY ftp "File transfer protocol">
+<!ENTITY www "Wide world Web">
+<!ENTITY wap "wireless aplication protocol">
+
+  <tr>
+  	<td>Questao 3.1</td>
+    <td> &ab; &ac; &bc; </td>
+    <td> &banana; &#174; &co;  </td>
+  </tr>
+
+  <tr>
+  	<td>Questao 3.2</td>
+    <td> &ftp; </td>
+	<td> &www; </td>
+	<td> &wap; </td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

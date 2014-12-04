@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Entidade</title>
+</head>
+<body>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE note [
+<!ENTITY ab "&lt;">
+<!ENTITY ac "Frutas">
+<!ENTITY bc "&gt;">
+<!ENTITY cd "&#174;">
+<!ENTITY banana "BANANA &#169;">
+<!ENTITY co "Frutas tropicais &#37;.">
+<!ENTITY ftp "File transfer protocol">
+<!ENTITY www "Wide world Web">
+<!ENTITY wap "wireless aplication protocol">
+
+<!ELEMENT LINGUAGEM (HTML,XML,JAVA)>
+<!ELEMENT HTML (SIGLA,USO,COMENTARIO)>
+<!ELEMENT XML (SIGLA,USO,COMENTARIO)>
+<!ELEMENT JAVA (SIGLA,USO,COMENTARIO)>
+<!ELEMENT SIGLA (#PCDATA)>
+<!ELEMENT USO (#PCDATA)>
+<!ELEMENT COMENTARIO (#PCDATA)>
+
+<!ELEMENT APARELHOS (TV,RADIO,MICROONDAS,FOGAO)>
+<!ELEMENT MICROONDAS (MODELO,TENSAO,FABRICANTE,CAPACIDADE,COR)>
+<!ELEMENT FOGAO (MODELO,TENSAO,FABRICANTE)>
+<!ELEMENT MODELO (#PCDATA)>
+<!ELEMENT TENSAO (#PCDATA)>
+<!ELEMENT FABRICANTE (#PCDATA)>
+<!ELEMENT CAPACIDADE (#PCDATA)>
+<!ELEMENT COR (#PCDATA)>
+
+]>
+
+
+<table>
+
+<title>Tabela HTML para XML</title>
+
+<tr>Questao 1.</tr>
+
+<caption> Tabela de carros </caption>
+	<thead>
+		<tr>
+			<th> Marca</th>
+			<th> Modelo</th>
+			<th> Ano</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="3">Ford</th>
+			<th> Fiesta</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> Focus</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> F250</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Toyota</th>
+			<th> Hilux</th>
+			<th> 2009</th>
+		</tr>
+		<tr>
+			<th> Yaris</th>
+			<th> 2009</th>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3"> Ultima atualizacao 11/2014 </td>
+		</tr>
+	</tfoot>
+
+
+  <tr>
+   	<td>Questao 2.0</td>
+    <td> &lt; Frutas &gt; </td>
+    <td>Bananas &lt; &#8471; &#174; &#169; &#37;  </td>
+  </tr>
+
+  <tr>
+  	<td>Questao 3.1</td>
+    <td> &ab; &ac; &bc; </td>
+    <td> &banana; &#174; &co;  </td>
+  </tr>
+
+  <tr>
+  	<td>Questao 3.2</td>
+    <td> &ftp; </td>
+	<td> &www; </td>
+	<td> &wap; </td>
+  </tr>
+  
+ <td>Questao 3.3</td>
+  
+<LINGUAGENS>
+ <HTML>
+
+ <SIGLA>Linguagem de marcação hipertexto</SIGLA>
+
+ <USO>Internet</USO>
+
+ <COMENTARIO>A linguagem mais usada da Internet</COMENTARIO>
+ </HTML> 
+
+ <XML>
+ <SIGLA>Linguagem de marcação extendida</SIGLA>
+
+ <USO>Internet</USO>
+
+ <COMENTARIO>A nova linguagem da Internet</COMENTARIO>
+ </XML> 
+
+ <JAVA>
+ <SIGLA>Simplesmente JAVA</SIGLA>
+
+ <USO>Internet</USO>
+
+ <COMENTARIO>Independente de plataforma</COMENTARIO>
+ </JAVA> 
+
+</LINGUAGENS>
+
+<APARELHOS> 
+<MICROONDAS> 
+<MODELO> TT </MODELO> <TENSAO>110 </TENSAO> <FABRICANTE> JJ </FABRICANTE> <CAPACIDADE> 10 l</CAPACIDADE> <COR>Vermelho</COR>	
+</MICROONDAS>
+<MODELO> Elect </MODELO> <TENSAO>110 </TENSAO> <FABRICANTE> Elect </FABRICANTE> <CAPACIDADE> 20 l</CAPACIDADE> <COR>Vermelho</COR>
+</APARELHOS>  
+  
+</table>
+
+</body>
+</html>
